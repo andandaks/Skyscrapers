@@ -1,4 +1,4 @@
 telebot
 random
-import requests
+requests
 bs4
