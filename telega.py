@@ -1,4 +1,5 @@
 import telebot
+import stremlit as st
 from PIL import Image, ImageDraw
 import requests
 from bs4 import BeautifulSoup as bs
