@@ -35,7 +35,7 @@ def returnphoto(message, photos):
         img.thumbnail((300, 300))
         title_text = message.text
         image_editable = ImageDraw.Draw(img)
-        res = image_editable.text((100, 15), title_text, size=10, fill=(255, 0, 0))
+        res = image_editable.text((15, 15), title_text, size=10, fill=(255, 0, 0))
     except Exception:
         pass
 
