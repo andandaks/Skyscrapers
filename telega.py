@@ -24,7 +24,8 @@ for i in imgs:
     except Exception:
         pass
     print(photos)
-photos.to_sql('photos')
+res = photos
+res.to_sql('photos')
 def returnphoto(message, photos):
     a = random.randint(1, len(photos) - 1)
     urllib.request.urlretrieve(
