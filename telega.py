@@ -11,7 +11,7 @@ headers = {
 }
 
 
-bot = telebot.Telebot('5305839756:AAGcAim61mtdQSTKooxKfFZG9TNjtJ-xmAw')
+bot = telebot.Telebot('TOKEN')
 
 r = requests.get('https://www.dreamstime.com/photos-images/skyscraper.html', headers = headers)
 soup = bs(r.content)
