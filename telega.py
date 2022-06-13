@@ -1,5 +1,4 @@
 import telebot
-import random
 from PIL import Image, ImageDraw
 import requests
 from bs4 import BeautifulSoup as bs
